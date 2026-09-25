@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Proyek Modul 9</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 font-sans">
+
+    <!-- NAVBAR UTAMA -->
+    <header class="bg-white border-b border-slate-200 px-6 py-4 flex items-center justify-between shadow-sm">
+
+        <!-- KELOMPOK KIRI -->
+        <div class="flex items-center gap-2.5">
+
+            <div class="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
+                ICB
+            </div>
+
+            <div>
+                <h1 class="font-bold text-slate-800 leading-tight">
+                    Rekaya Perangkat Lunak
+                </h1>
+                <p class="text-[11px] font-medium text-slate-400">
+                    SMK ICB Cinta Niaga
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- KELOMPOK TENGAH -->
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+            <a href="#" class="text-blue-600 font-semibold">
+                Beranda
+            </a>
+
+            <a href="#" class="hover:text-blue-600 transition">
+                Jadwal Pelajaran
+            </a>
+
+            <a href="#" class="hover:text-blue-600 transition">
+                Tugas PBL
+            </a>
+
+            <a href="#" class="hover:text-blue-600 transition">
+                E-Rapot
+            </a>
+        </nav>
+
+
+        <!-- KELOMPOK KANAN -->
+        <div class="flex items-center gap-3">
+
+            <span class="text-xs text-slate-500 font-medium hidden sm:inline">
+                Halo, Rafi
+            </span>
+
+            <button class="bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold px-4 py-2 rounded-lg transition shadow-sm">
+                Keluar
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- KONTEN UTAMA -->
+    <main class="p-8 max-w-4xl mx-auto text-center">
+
+        <!-- KOTAK SAMBUTAN -->
+        <div class="bg-white p-8 rounded-xl border border-slate-200 mb-6">
+
+            <h2 class="text-xl font-bold text-slate-800">
+                Selamat Datang di    Rekayasa Perangkat Lunak!
+            </h2>
+
+            <p class="text-sm text-slate-500 mt-2">
+                RPL adalah bidang yang berfokus pada pengembangan software, website, aplikasi, dan teknologi digital.
+
+        </div>
+
+
+        <!-- FILTER CHIPS -->
+        <div class="flex justify-center items-center gap-2 mt-6">
+
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium">
+                Semua Tugas
+            </button>
+
+            <button class="bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-2 rounded-full text-sm font-medium transition">
+                Belum Dikerjakan
+            </button>
+
+            <button class="bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-2 rounded-full text-sm font-medium transition">
+                Sedang Dinilai
+            </button>
+
+            <button class="bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-2 rounded-full text-sm font-medium transition">
+                Selesai
+            </button>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
